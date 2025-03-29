@@ -1,0 +1,59 @@
+.main-homepage {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: #1B2430;
+
+
+}
+
+.left-info-container {
+    margin-top: 4rem;
+    margin-left: 10rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 50%;
+
+}
+
+p {
+    margin-top: 1rem;
+}
+
+.right-image-container {
+
+    width: 50%;
+    height: auto;
+
+}
+
+.home-image {
+    width: 75%;
+    height: auto;
+
+
+}
+
+.button-container {
+    margin-top: 1.5rem;
+
+}
+
+.send-btn {
+    background-color: #7734e7;
+    color: #fffeff;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+
+}
+
+.send-btn:hover {
+    background-color: transparent;
+    color: #7734e7;
+    border-color: #7734e7;
+
+}
